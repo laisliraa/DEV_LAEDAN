@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding-left: 0;
+}
+
+.navigation-bar,
+.button-1{
+    display: flex;
+    align-items: center;
+}
+.navigation-bar{
+    width: 100%;
+    background-color: rgba(64, 137, 67, 0.84);
+    height: 3em;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 5.5rem;
+    margin-top: 0.2rem;
+    margin-left: 2rem;
+}
+
+.button-1 a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 1rem;
+    margin-right: 2rem;
+    font-weight: normal;
+}
+
