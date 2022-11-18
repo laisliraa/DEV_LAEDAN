@@ -24,9 +24,30 @@
 .button-1 a{
     text-decoration: none;
     color: black;
-    font-family: sans-serif;
-    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.85rem;
     margin-right: 2rem;
     font-weight: normal;
 }
 
+.navigation-bar-2,
+.nav-buttons{
+    display: flex;
+    align-items: center;
+
+}
+
+
+.nav-buttons a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.85rem;
+    margin-right: 2rem;
+    color: black;
+    text-decoration: none;
+}
+
+span{
+    font-style: bold
+    ;
+    color: white;
+}
