@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding-left: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .navigation-bar,
@@ -11,7 +13,7 @@
 .navigation-bar{
     width: 100%;
     background-color: rgba(64, 137, 67, 0.84);
-    height: 3em;
+    height: 3.2em;
     justify-content: space-between;
 }
 
@@ -34,9 +36,7 @@
 .nav-buttons{
     display: flex;
     align-items: center;
-
 }
-
 
 .nav-buttons a{
     font-family: 'Montserrat', sans-serif;
@@ -47,7 +47,26 @@
 }
 
 span{
-    font-style: bold
-    ;
-    color: white;
+    font-style: bold;
+    color: #298119;
+}
+
+#sobre-ipojuca{
+    width: 100%;
+    size-adjust: 1em;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+    margin-left: 13rem;
+    align-items: center;
+}
+
+.nav-boxes{
+    display: flex;
+    justify-content: space-around;
+}
+
+#sobre-nos,
+#coletas,
+#comentarios{
+    margin-top: 2rem;
 }
