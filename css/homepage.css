@@ -1,0 +1,24 @@
+/*CSS APENAS DOS ELEMENTOS ÚNICOS DA PÁGINA INICIAL*/
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/*CAIXAS (LINKS) PARA AS DEMAIS PÁGINAS*/
+#sobre-ipojuca{
+    width: 100%;
+    size-adjust: 1em;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+    margin-left: 13rem;
+    align-items: center;
+}
+
+.nav-boxes{
+    display: flex;
+    justify-content: space-around;
+}
+
+#sobre-nos,
+#coletas,
+#comentarios{
+    margin-top: 2rem;
+}
