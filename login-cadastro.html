@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;1,100&display=swap">
+    <link rel="stylesheet" href="css/login-cadastro.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Entre ou Cadastre-se</title>
 </head>
@@ -29,9 +30,27 @@
         <div class="login-content">
             <h1>Já possui cadastro?</h1>
             <h2>Acesse sua conta</h2>
-            <div class="card-login">
-                <label for=""></label>
-            </div>
+            <form action="">
+                <label for="e-mail">E-mail</label>
+                <input type="e-mail" name="email" placeholder="Digite seu e-mail" id="e-mail" autofocus>
+                <label for="password">Senha</label>
+                <input type="password" name="password" id="password" placeholder="Digite sua senha">
+                <a href="./resgate-senha.html" id="forgot-pass">Esqueceu seu senha?</a>
+                <input type="submit" value="ACESSAR CONTA">
+            </form>
+        </div>
+        <div class="cadastro-content">
+            <h1>Não tem uma conta? Sem problemas!</h1>
+            <h2>Cadastre-se agora</h2>
+            <form action="">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="Cadastre seu e-mail">
+                <label for="password">Senha</label>
+                <input type="password" name="password" id="password" placeholder="Crie uma senha">
+                <label for="password">Senha</label>
+                <input type="password" name="password" id="password" placeholder="Confirme a senha">
+                <input type="submit" value="CRIAR CONTA">
+            </form>
         </div>
     </div>
 </body>
