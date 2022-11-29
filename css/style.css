@@ -52,16 +52,7 @@
 }
 
 .nav-buttons a:hover{
-    opacity: 1;
-}
-
-.nav-buttons a:hover{
-    content: '';
-    position: inherit;
-    top: 8px;
-    left: 50%;
-    background: #409235a9;
-    border-radius: 50px;
+    color: rgba(39, 107, 41, 0.911);
 }
 
 
