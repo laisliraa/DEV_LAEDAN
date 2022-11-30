@@ -22,3 +22,7 @@
 #comentarios{
     margin-top: 2rem;
 }
+
+.button-user a:hover{
+    color: rgb(55, 88, 56);
+}
