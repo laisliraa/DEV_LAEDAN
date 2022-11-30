@@ -11,33 +11,8 @@
     border: none;
 }
 
-/*TEXTOS DOS H1 E H2 DAS ÁREAS DE LOGIN E CADASTRO*/
-
-.texto-1{
-    margin-top: 20px;
-    margin-bottom: 50px;
-    font-style: bold;
-    font-weight: 300;
-    font-size: 24px;
-    margin-left: 0.7em;
-}
-
-.texto-2{
-    color: #097300;
-    margin-bottom: 20px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-
-}
-
-.texto-3{
-    margin-top: 20px;
-    margin-bottom: 50px;
-    font-style: bold;
-    font-weight: 300;
-    font-size: 24px;
-    margin-left: 6em;
+input:focus{
+    outline: none;
 }
 
 .texto-4{
@@ -45,29 +20,24 @@
     position: absolute;
     width: 569px;
     height: 62px;
-    left: 79px;
-    top: 21px;
-
+    left: 49px;
+    top: 50px;
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 39px;
+    font-weight: 500;
+    font-size: 28px;
     display: flex;
-    align-items: center;
-    text-align: center;
-    
     color: #FFFFFF;
 }
 .texto-5{
     position: absolute;
     width: 601px;
     height: 43px;
-    left: 63px;
-    top: 133px;
+    left: 40px;
+    top: 145px;
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 24px;
     line-height: 20px;
     display: flex;
@@ -75,179 +45,50 @@
     text-align: center;
     color: #000000;
 }
-textarea:focus, input:focus{
-    outline: none;
-}
 
-/*ÁREA DE LOGIN*/
-
-.login-content{
-    position: absolute;
-    width: 330px;
-    height: 400px;
-    left: 200px;
-    top: 170px;
-}
 .cadastro-content #e-mail{
     position: absolute;
     width: 455px;
-    height: 29px;
-    left: 140px;
-    top: 253px;
-    
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 29px;
-    display: flex;
-    align-items: center;
-    
-    color: #408943;
-}
-#e-mail{
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 478px;
-    height: 46px;
-    left: 125px;
-    top: 245px;
-    
-    background: #FFFFFF;
-    border: 1px solid #000000;
-    border-radius: 10px;
-}
-
-#password{
-    width: 200px;
-    height: 26px;
-    left: 29px;
-    top: 116px;
-}
-
-#submit1{
-    align-content: center;
-    font-size: 1rem;
-    background: rgba(84, 161, 86, 0.911);
-    border: 1px solid #000000;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 6px;
-    width: 170px;
-    height: 25px;
-    margin-top: 20px;
-}
-
-
-.forgot-pass{
-    text-decoration: none;
-    color: rgba(39, 107, 41, 0.911);
-}
-
-.forgot-pass:hover{
-    color: black;
-}
-
-/*ESQUECEU A SENHA
-#forgot-pass a{
-    color:rgba(39, 107, 41, 0.911);
-    text-decoration: none;
-}
-
-#forgot-pass a:hover{
-    color: black;
-}
-*/
-
-/*ÁREA DE CADASTRO*/
-/* position: absolute;
-width: 455px;
-height: 29px;
-left: 140px;
-top: 253px;
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 29px;
-display: flex;
-align-items: center; */
-.cadastro-content #submit2{
-    box-sizing: border-box;
-
-position: absolute;
-width: 152px;
-height: 41px;
-left: 451px;
-top: 323px;
-
-background: rgba(189, 242, 191, 0.9);
-border: 1px solid #000000;
-border-radius: 10px;
-}
-.cadastro-content{
-    position: absolute;
-    width: 727px;
-    height: 385px;
-
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    background: rgba(9, 115, 0, 0.4);
-    border-radius: 50px;
-}
-
-#submit2{
-    text-transform: uppercase;
-    justify-content: center;
-    position: absolute;
-    width: 130px;
     height: 32px;
-    left: 465px;
-    top: 328px;
+    left: 110px;
+    top: 240px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    
-    color: #000000;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+#submit2{
+    position: absolute;
+    width: 120px;
+    height: 35px;
+    left: 480px;
+    top: 320px;
+    background: rgba(65, 146, 72, 0.726);
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+#submit2:hover{
+    background-color: rgba(64, 137, 67, 0.84);
+    color: #FFFFFF;
 }
 
 
-/*ELEMENTOS DE AMBOS (LOGIN E CADASTRO)*/
-
-/*CAIXAS E EMAIL E SENHA*/
-#e-mail,
-#password{
-    width: 19em;
-    padding: 1em;
-    border: 1px solid #000000;
-    border-radius: 6px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    padding-left: 0.5rem;
-    display: block;
-    margin-top: 4px;
-    margin-bottom: 17px;
+#submit2{
+    font-family: 'Montserrat';
+    font-weight: 480
 }
 
-/*BOTÃO DE ACESSAR CONTA E CRIAR CONTA*/
-input:hover{
-    color: rgb(55, 88, 56);
-}
-
-/*LABELS DE E-MAIL E SENHA*/
-#email-label, 
-#pass-label,
-#pass-label2{
-    color: #097300;
-    font-style: bold;
-    font-weight: 600;
-}
-
-.cadastro{
-    margin-left: 9em;
+.cadastro-content{
+    position: absolute;
+    width: 670px;
+    height: 385px;
+    left: 50%;
+    top: 53%;
+    transform: translate(-50%, -50%);
+    background: rgba(64, 137, 67, 0.84);
+    border-radius: 50px;
 }
