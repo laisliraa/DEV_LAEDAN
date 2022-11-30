@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;1,100&display=swap">
-    <link rel="stylesheet" href="css/recuperar.css">
+    <link rel="stylesheet" href="css/login-cadastro.css">
     <link rel="stylesheet" href="css/style.css">
     <title>LAEDAN - Recuperar</title>
 </head>
@@ -27,14 +27,17 @@
                 </div>
             </nav>
         </header>
-        <!--recuperar senha-->
+        <!--parte 2 da recuperação de senha-->
         <div class="cadastro-content">
-            <h2 class="texto-4">Recuperar sua Conta</h2>
-            <p class="texto-5">Identifique-se para receber um e-mail com as Informações e o link para criar uma nova senha</p>
-            
+            <h2 class="texto-4">Nova Senha</h2>
             <form action="" class="cadastro">
-                <input type="email" name="email" id="e-mail" placeholder="Informe o e-mail cadastrado">
-                <input type="submit" value="Enviar e-mail" id="submit2">
+                <label for="email" id="email-label">Código</label>
+                <input type="email" name="email" id="e-mail" placeholder="Digite o seu código">
+                <label for="password" id="pass-label">Nova Senha</label>
+                <input type="password" name="password" id="password" placeholder="Crie uma senha">
+                <label for="password" id="pass-label2">Confirme a Senha</label>
+                <input type="password" name="password" id="password" placeholder="Confirme a senha">
+                <input type="submit" value="CONFIRMAR" id="submit2">
             </form>
         </div>
     </div>
