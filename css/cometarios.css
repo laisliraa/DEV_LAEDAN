@@ -8,10 +8,43 @@
     overflow-x: hidden;
 }
 
+input:focus{
+    outline: none;
+}
 /*IMAGEM DOS COMENTÁRIOS*/
 .img-coments img{
     width: 400px;
+    margin-left: 90px;
+    margin-top: 70px;
 }
 
 /*FORMULÁRIO DOS COMENTÁRIOS*/
 
+.coments{
+    position: absolute;
+    border: 1px solid black;
+    width: 612px;
+    height: 374px;
+    left: 48%;
+    top: 22%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+#name-label,
+#comentario-label{
+    color: rgba(52, 154, 57, 0.61);
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-weight: 500;
+    display: flex;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#username,
+#coments-box{
+    margin-left: 30px;
+    margin-top: 5px;
+}
