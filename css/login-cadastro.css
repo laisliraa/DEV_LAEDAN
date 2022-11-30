@@ -114,12 +114,11 @@ textarea:focus, input:focus{
 /*ÁREA DE CADASTRO*/
 
 .cadastro-content{
-    padding-right: 0%;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
+    position: absolute;
     width: 604px;
     height: 400px;
+    left: 700px;
+    top: 150px;
 }
 
 #submit2{
@@ -133,6 +132,7 @@ textarea:focus, input:focus{
     height: 25px;
     margin-top: 0.2em;
 }
+
 
 /*ELEMENTOS DE AMBOS (LOGIN E CADASTRO)*/
 
