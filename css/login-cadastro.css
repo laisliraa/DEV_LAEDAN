@@ -168,7 +168,7 @@ input:hover{
     margin-left: 9em;
 }
 
-/*DIVISÓRIA*/
+/*DIVISÓRIA
 .divisoria{
     position: absolute;
     border: 1px solid black;
@@ -177,4 +177,4 @@ input:hover{
     left: calc(50% - 526px/2 + 238.4px);
     top: calc(50% - 0px/2 - 257.5px);
     transform: rotate(90deg);
-}
+} */
