@@ -14,39 +14,40 @@
 /*TEXTOS DOS H1 E H2 DAS ÁREAS DE LOGIN E CADASTRO*/
 
 .texto-1{
-    margin-top: 20px;
-    margin-bottom: 50px;
+    margin-top: 28px;
+    margin-bottom: 30px;
     font-style: bold;
     font-weight: 300;
-    font-size: 24px;
-    margin-left: 0.7em;
+    font-size: 1.8rem;
+    margin-right: 1em;
 }
 
 .texto-2{
     color: #097300;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 1.7rem;
+    margin-left: 0.5em;
 
 }
 
 .texto-3{
-    margin-top: 20px;
-    margin-bottom: 50px;
+    margin-top: 28px;
+    margin-bottom: 30px;
     font-style: bold;
     font-weight: 300;
-    font-size: 24px;
-    margin-left: 6em;
+    font-size: 1.8rem;
+    margin-left: 4.2em;
 }
 
 .texto-4{
     color: #097300;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
-    margin-left: 4.5em;
+    font-size: 1.7rem;
+    margin-left: 5.3em;
 }
 
 textarea:focus, input:focus{
@@ -59,8 +60,8 @@ textarea:focus, input:focus{
     position: absolute;
     width: 330px;
     height: 400px;
-    left: 200px;
-    top: 170px;
+    left: 230px;
+    top: 150px;
 }
 
 #e-mail{
@@ -117,7 +118,7 @@ textarea:focus, input:focus{
     width: 604px;
     height: 400px;
     left: 700px;
-    top: 170px;
+    top: 150px;
 }
 
 #submit2{
@@ -129,6 +130,7 @@ textarea:focus, input:focus{
     border-radius: 6px;
     width: 140px;
     height: 25px;
+    margin-top: 0.2em;
 }
 
 
@@ -164,4 +166,15 @@ input:hover{
 
 .cadastro{
     margin-left: 9em;
+}
+
+/*DIVISÓRIA*/
+.divisoria{
+    position: absolute;
+    border: 1px solid black;
+    width: 530px;
+    height: 0px;
+    left: calc(50% - 526px/2 + 238.4px);
+    top: calc(50% - 0px/2 - 257.5px);
+    transform: rotate(90deg);
 }
