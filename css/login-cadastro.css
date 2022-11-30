@@ -113,11 +113,15 @@ textarea:focus, input:focus{
 /*ÁREA DE CADASTRO*/
 
 .cadastro-content{
-    position: absolute;
+    padding-right: 0%;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
     width: 604px;
     height: 400px;
-    left: 700px;
-    top: 170px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
 }
 
 #submit2{
