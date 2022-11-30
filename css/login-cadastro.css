@@ -6,22 +6,162 @@
     padding: 0;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    color: black;
+    border: none;
 }
 
 /*TEXTOS DOS H1 E H2 DAS ÁREAS DE LOGIN E CADASTRO*/
 
-h1{
-    font-style: normal;
+.texto-1{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-style: bold;
     font-weight: 300;
     font-size: 24px;
-    line-height: 29px;
+    margin-left: 0.7em;
 }
 
-h2{
+.texto-2{
+    color: #097300;
+    margin-bottom: 20px;
     font-style: normal;
     font-weight: 400;
+    font-size: 30px;
+
+}
+
+.texto-3{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-style: bold;
+    font-weight: 300;
     font-size: 24px;
-    line-height: 29px;
+    margin-left: 6em;
+}
+
+.texto-4{
+    color: #097300;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    margin-left: 4.5em;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+/*ÁREA DE LOGIN*/
+
+.login-content{
+    position: absolute;
+    width: 330px;
+    height: 400px;
+    left: 200px;
+    top: 170px;
+}
+
+#e-mail{
+    width: 200px;
+    height: 26px;
+    left: 29px;
+    top: 116px;
+}
+
+#password{
+    width: 200px;
+    height: 26px;
+    left: 29px;
+    top: 116px;
+}
+
+#submit1{
+    align-content: center;
+    font-size: 1rem;
+    background: rgba(84, 161, 86, 0.911);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    width: 170px;
+    height: 25px;
+    margin-top: 20px;
 }
 
 
+.forgot-pass{
+    text-decoration: none;
+    color: rgba(39, 107, 41, 0.911);
+}
+
+.forgot-pass:hover{
+    color: black;
+}
+
+/*ESQUECEU A SENHA
+#forgot-pass a{
+    color:rgba(39, 107, 41, 0.911);
+    text-decoration: none;
+}
+
+#forgot-pass a:hover{
+    color: black;
+}
+*/
+
+/*ÁREA DE CADASTRO*/
+
+.cadastro-content{
+    position: absolute;
+    width: 604px;
+    height: 400px;
+    left: 700px;
+    top: 170px;
+}
+
+#submit2{
+    font-size: 1rem;
+    font-style: normal;
+    background: rgba(84, 161, 86, 0.911);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    width: 140px;
+    height: 25px;
+}
+
+
+/*ELEMENTOS DE AMBOS (LOGIN E CADASTRO)*/
+
+/*CAIXAS E EMAIL E SENHA*/
+#e-mail,
+#password{
+    width: 19em;
+    padding: 1em;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-left: 0.5rem;
+    display: block;
+    margin-top: 4px;
+    margin-bottom: 17px;
+}
+
+/*BOTÃO DE ACESSAR CONTA E CRIAR CONTA*/
+input:hover{
+    color: rgb(55, 88, 56);
+}
+
+/*LABELS DE E-MAIL E SENHA*/
+#email-label, 
+#pass-label,
+#pass-label2{
+    color: #097300;
+    font-style: bold;
+    font-weight: 600;
+}
+
+.cadastro{
+    margin-left: 9em;
+}
