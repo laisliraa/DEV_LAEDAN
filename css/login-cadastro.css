@@ -82,12 +82,19 @@ textarea:focus, input:focus{
     align-content: center;
     font-size: 1rem;
     background: rgba(84, 161, 86, 0.911);
-    border: 1px solid #000000;
+    border: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 6px;
     width: 170px;
     height: 25px;
     margin-top: 20px;
+}
+
+#submit1:hover{
+    transition: 1s;
+    background-color: #14610faf;
+    color: aliceblue;
+    font-style: bold;
 }
 
 
@@ -125,13 +132,21 @@ textarea:focus, input:focus{
     font-size: 1rem;
     font-style: normal;
     background: rgba(84, 161, 86, 0.911);
-    border: 1px solid #000000;
+    border: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 6px;
     width: 140px;
     height: 25px;
     margin-top: 0.2em;
 }
+
+#submit2:hover{
+    transition: 1s;
+    background-color: #14610faf;
+    color: aliceblue;
+    font-style: bold;
+}
+
 
 
 /*ELEMENTOS DE AMBOS (LOGIN E CADASTRO)*/
