@@ -53,6 +53,7 @@
 
 .nav-buttons a:hover{
     color: rgba(39, 107, 41, 0.911);
+    transition: 1s;
 }
 
 
