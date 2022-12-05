@@ -8,6 +8,7 @@
     overflow-x: hidden;
 }
 
+
 input:focus{
     outline: none;
 }
@@ -49,6 +50,12 @@ input:focus{
     border-radius: 5px;
     border: 1px solid gray;
     padding-left: 5px;
+    background-color: rgba(234, 241, 234, 0.37);
+}
+
+#username:focus{
+    outline: none;
+    border: 1px solid rgba(52, 154, 57, 0.61);
 }
 
 #coments-box{
@@ -57,6 +64,12 @@ input:focus{
     border-radius: 5px;
     border: 1px solid gray;
     padding-left: 5px;
+    background-color: rgba(234, 241, 234, 0.37);
+}
+
+#coments-box:focus{
+    outline: none;
+    border: 1px solid rgba(52, 154, 57, 0.61);
 }
 
 #username,
@@ -64,6 +77,7 @@ input:focus{
     margin-left: 30px;
     margin-top: 5px;
 }
+
 
 /*BOTÃO DE ENVIAR*/
 #submit-button{
