@@ -4,10 +4,7 @@
 
 *{
     font-family: 'Montserrat', sans-serif;
-    overflow-y: hidden;
-    overflow-x: hidden;
 }
-
 
 input:focus{
     outline: none;

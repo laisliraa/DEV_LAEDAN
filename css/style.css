@@ -6,8 +6,7 @@
 *{
     margin: 0;
     padding-left: 0;
-    overflow-x: hidden;
-    overflow-y: hidden;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .navigation-bar,
@@ -20,6 +19,7 @@
     background-color: rgba(64, 137, 67, 0.84);
     height: 3.2em;
     justify-content: space-between;
+    
 }
 
 .logo{
@@ -28,13 +28,14 @@
     margin-left: 2rem;
 }
 
-.button-user a{
+#button-user a{
     text-decoration: none;
     color: black;
     font-family: 'Montserrat', sans-serif;
     font-size: 0.85rem;
     margin-right: 2rem;
     font-weight: normal;
+    text-decoration: none;
 }
 
 .navigation-bar-2,

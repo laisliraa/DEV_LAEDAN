@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+.historia {
+    border: 10px;
+    width: 70rem;
+    margin:auto;
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+#ipojuca-old {
+    width: 1000px;
+    height: 250px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.historia img, h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.historia h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    
+}
+
+.img-texto{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 700px;
+    height: 200px;
+}
+
+.divisor-verde{
+    border: 2px solid green;
+    border-radius: 10px;
+    background: green;
+}
+
+.box-paises img {
+    width: 700px;
+    text-align: center;
+    justify-self: center;
+}
+
+.paises{
+    border:15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 760px;
+}
+
+.paises h3{
+    text-align: left;
+}
+
+.divisor-verde-paises{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 300px;
+    align-items: center;
+    border: 2px solid green;
+    border-radius: 10px;
+    background: green;
+}
+
+.texto-paises{
+    text-align: left;
+    font-weight: bold;
+}
+
+.img-paises{
+    width: 750px;
+    height: 200px;
+    margin-bottom: 30px;
+}
