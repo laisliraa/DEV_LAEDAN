@@ -14,12 +14,12 @@
     display: flex;
     align-items: center;
 }
+
 .navigation-bar{
     width: 100%;
     background-color: rgba(64, 137, 67, 0.84);
     height: 3.2em;
     justify-content: space-between;
-    
 }
 
 .logo{
@@ -28,7 +28,7 @@
     margin-left: 2rem;
 }
 
-#button-user a{
+.button-user a{
     text-decoration: none;
     color: black;
     font-family: 'Montserrat', sans-serif;
@@ -57,5 +57,7 @@
     transition: 1s;
 }
 
-
-
+.button-user a:hover{
+    color: rgba(39, 107, 41, 0.911);
+    transition: 1s;
+}

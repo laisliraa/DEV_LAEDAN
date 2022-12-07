@@ -5,14 +5,18 @@
     height: 162px;
     left: 0px;
     top: 120px;
-    background:  rgba(39, 136, 41, 0.692);
+    background:  rgba(39, 136, 41, 0.651);
+}
+
+textarea:focus, input:focus{
+    outline: none;
 }
 
 .rectangle26 > h1{
     position: absolute;
     width: 80rem;
     height: 102px;
-    left: 37px;
+    left: 2em;
     top: 28px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -29,9 +33,9 @@
     width: 458px;
     height: 258px;
     left: 780px;
-    top: 355px;
-    border-radius: 20px;
-    background:  rgba(64, 137, 67, 0.84);
+    top: 25em;
+    border-radius: 10px;
+    background:  white;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
 }
@@ -40,9 +44,9 @@
     width: 458px;
     height: 258px;
     left: 130px;
-    top: 355px;
-    border-radius: 20px;
-    background:  rgba(64, 137, 67, 0.84);
+    top: 25em;
+    border-radius: 10px;
+    background: white;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
 }
@@ -60,6 +64,9 @@
 .plastico > h2 > p {
     
     color: #097300;
+    font-weight: 500;
+    margin-left: 61px;
+    margin-top: 0.3em;
 }
 .oleodecozinha > h2{
     position: absolute;
@@ -73,6 +80,9 @@
 }
 .oleodecozinha > h2 > p{
     color: #097300;
+    font-weight: 500;
+    margin-left: 12px;
+    margin-top: 8px;
 }
 .plastico > h3{
     position: absolute;
@@ -87,8 +97,7 @@
     line-height: 20px;
     display: flex;
     align-items: center;
-
-    color: #000000;
+    color: rgba(84, 161, 86, 0.911);
 }
 .oleodecozinha > h3{
     position: absolute;
@@ -105,7 +114,7 @@
     display: flex;
     align-items: center;
 
-    color: #000000;
+    color: rgba(84, 161, 86, 0.911);
 }
 .oleodecozinha > input{
     box-sizing: border-box;
@@ -116,7 +125,7 @@
     left: 132px;
     top: 93px;
     background: #FFFFFF;
-    border: 1px solid #000000;
+    border: 1px solid rgba(84, 161, 86, 0.911);
 }
 .plastico > input{
     box-sizing: border-box;
@@ -127,7 +136,7 @@
     left: 116px;
     top: 93px;
     background: #FFFFFF;
-    border: 1px solid #000000;
+    border: 1px solid rgba(84, 161, 86, 0.911);
 }
 .plastico > button{
     position: absolute;
@@ -135,7 +144,7 @@
     height: 27px;
     left: 340px;
     top: 210px;
-    background: #FFFFFF;
+    background: rgba(84, 161, 86, 0.911);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     font-weight: 600;
@@ -150,7 +159,7 @@
     height: 27px;
     left: 348px;
     top: 210px;
-    background: #FFFFFF;
+    background: rgba(84, 161, 86, 0.911);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     font-weight: 600;
@@ -161,8 +170,10 @@
 
 /*muda a cor do botão deixa?*/
 button:hover{
-    background-color: rgba(64, 137, 67, 0.84);
+    background-color: rgba(64, 137, 66, 0.973);
     transition: 1s;
+    color: white;
+
 }
 .plastico > img{
     position: absolute;

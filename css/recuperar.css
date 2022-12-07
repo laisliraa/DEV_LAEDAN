@@ -15,6 +15,10 @@ input:focus{
     outline: none;
 }
 
+input{
+    border: 1px solid black;
+}
+
 .texto-4{
     justify-content: center;
     position: absolute;
@@ -66,20 +70,22 @@ input:focus{
     height: 35px;
     left: 480px;
     top: 320px;
-    background: rgba(65, 146, 72, 0.726);
+    background: white;
     border-radius: 8px;
-    border: 1px solid black;
+    border: 0 solid black;
+    box-shadow: 9px 7px 16px -8px #000000;
 }
 
 #submit2:hover{
     background-color: rgba(64, 137, 67, 0.84);
     color: #FFFFFF;
+    transition: 0.5s;
 }
 
 
 #submit2{
     font-family: 'Montserrat';
-    font-weight: 480
+    font-weight: 500;
 }
 
 .cadastro-content{
