@@ -5,7 +5,10 @@
     height: 162px;
     left: 0px;
     top: 120px;
-    background:  rgba(39, 136, 41, 0.651);
+    background: whitesmoke;
+    box-shadow: 4px -18px 172px -11px rgba(81,191,83,0.35);
+    -webkit-box-shadow: 4px -18px 172px -11px rgba(81,191,83,0.35);
+    -moz-box-shadow: 4px -18px 172px -11px rgba(81,191,83,0.35);
 }
 
 textarea:focus, input:focus{
@@ -20,13 +23,13 @@ textarea:focus, input:focus{
     top: 28px;
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 24px;
     line-height: 29px;
     display: flex;
     align-items: center;
     text-align: center;
-    color: black;
+    color: rgba(84, 161, 86, 0.911);
 }
 .oleodecozinha{
     position: absolute;
