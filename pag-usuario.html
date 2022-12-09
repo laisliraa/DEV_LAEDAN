@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página do Usuário</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;1,100&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pag-usuario.css">
+    
+</head>
+    <style> 
+    .nome {
+        left: auto;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: 4fr 3fr;
+        grid-template-rows: 9vh 100vh ;
+        grid-template-areas: "h h"
+                             "m a"
+                             
+
+    
+                              
+    }
+
+    header{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        grid-area: h
+
+    }
+
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        grid-area: m;
+    }
+
+    aside{
+        grid-area: a;
+    }
+
+
+    </style>
+<body>
+    <nav>
+        <div class="navigation-bar">
+            <img class="logo" src="images/LOGONOVALAEDAN 1.png" alt="LOGO LAEDAN">
+            <div class="nav-buttons">
+                <a id="button-1" href="./index.html">INÍCIO</a>
+                <a id="button-2" href="./sobre-nos.html">SOBRE NÓS</a>
+                <a id="button-3" href="./sobre-ipojuca.html">O RIO</a>
+                <a id="button-4" href="./coletas-user.html">COLETAS</a>
+                <a id="button-5" href="./comentarios.html"><span>COMENTÁRIOS</span></a>
+                <a id="button-6" href="./login-cadastro.html">ENTRE OU CADASTRE-SE</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <header>
+            <img src="images/contact-information 1.png" alt="">
+            <h1 style="color: #097300;">Suas Informações:</h1>
+        </header>
+
+
+        <div class="conteudo">
+            
+            <main class="foto">
+                <p>
+                    <img src="images/Icone-usuario-Png-1024x1024-removebg-preview 1.png" alt="">
+                    <h2 class="nome" style="color: rgba(9, 115, 0, 0.61);">Nome Usuário</h2>
+                    <h3 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Deseja fazer parte da coleta coletiva e
+                        <br> ajudar na preservação do Rio Ipojica?</h3>
+                </p> 
+                    <p class="buton" style="color: azure;"><b>Saiba Mais</b></p>   
+            </main>
+    
+            <aside>
+                <div class="box">
+                    <form action="">
+                        <fieldset>
+                            <div class="inputbox">
+                                <label for="nome"><b>Nome completo:</b></label>
+                                <input type="text" name="nome" id="nome" class="inputuser" required>
+                            </div>
+                            <br></br>
+                            <div class="inputbox">
+                                <label for="apelido"><b>Apelido:</b></label>
+                                <input type="text" name="pelido" id="Apelido" class="inputuser" required>
+                            </div>
+                            <br></br>
+                            <div class="inputbox">
+                                <label for="data de nascimento"><b>Data de nascimento:</b></label>
+                                <input type="date" name="data de nascimento" id="data de nascimento" class="inputuser" required>
+                            </div>
+                            <br></br>
+                            <div class="inputbox">
+                                <label for="cpf"><b>CPF:</b></label>
+                                <input type="number" name="cpf" id="cpf" class="inputuser" required>
+                            </div>
+                            <br></br>
+                            <div class="inputbox">
+                                <label for="email"><b>E-mail:</b></label>
+                                <input type="email" name="email" id="email" class="inputuser" required>
+                            </div>
+                            <br></br>
+                            <div class="inputbox">
+                                <label for="celular"><b>N de Telefone:</b></label>
+                                <input type="number" name="celular" id="celular" class="inputuser" required>
+                            </div>
+                            <br></br>
+                            <div class="inputbox">
+                                <label for="estado"><b>Estado:</b></label>
+                                <input type="text" id="estado" class="inputuser" required>
+                            </div>
+                            <br></br>
+                            <div class="inputbox">
+                                <label for="cidade"><b>Cidade:</b></label>
+                                <input type="text" name="cidade" id="cidade" class="inputuser" required>
+                            </div>
+                            <br></br>
+                            <div class="inputbox">
+                                <label for="endereço"><b>Endereço:</b></label>
+                                <input type="text" name="endereço" id="endereço" class="inputuser" required>
+                            </div>
+                            <br></br>
+                            <p class="buton2"><b>Salvar</b></p>
+                        </fieldset>
+                    </form>
+                </div>
+            </aside>
+            
+        </div>
+    </div>
+</body>
+</html>
